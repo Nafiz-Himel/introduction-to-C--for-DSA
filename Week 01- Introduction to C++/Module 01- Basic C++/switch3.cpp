@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    char c;
+    cin >> c;
+
+    switch (c)
+    {
+    case 'a':
+        cout << "Vowel";
+        break;
+
+    case 'e':
+        cout << "Vowel";
+        break;
+
+    case 'i':
+        cout << "Vowel";
+        break;
+
+    case 'o':
+        cout << "Vowel";
+        break;
+
+    case 'u':
+        cout << "Vowel";
+
+    default:
+        cout << "Consonant";
+    }
+    return 0;
+}
